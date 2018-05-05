@@ -2,10 +2,20 @@
   "name": "bbl-async",
   "version": "1.0.0",
   "description": "Play with asynchronous code",
-  "keywords": ["callback", "promise", "async/await"],
+  "keywords": [
+    "callback",
+    "promise",
+    "async/await"
+  ],
   "author": "Cedric Nicoloso <cedric.nicoloso@gmail.com>",
   "license": "ISC",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha tests/*"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.1.1",
+    "rewiremock": "^3.7.1",
+    "sinon": "^5.0.3"
   }
 }
