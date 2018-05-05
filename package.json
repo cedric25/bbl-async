@@ -1,0 +1,11 @@
+{
+  "name": "bbl-async",
+  "version": "1.0.0",
+  "description": "Play with asynchronous code",
+  "keywords": ["callback", "promise", "async/await"],
+  "author": "Cedric Nicoloso <cedric.nicoloso@gmail.com>",
+  "license": "ISC",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
