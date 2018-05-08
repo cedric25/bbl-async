@@ -1,8 +1,11 @@
+const { getOneNumber } = require('./getOneNumber')
+const { getSum } = require('./getSum')
+
 /**
  * Instructions:
  *  - Call getOneNumber() two times
  *  - Call getSum() with these 2 numbers
- *  - console.log the result
+ *  - console.log the result of getSum()
  *
  * Notes:
  *  - getOneNumber() and getSum() are asynchronous and return promises!
