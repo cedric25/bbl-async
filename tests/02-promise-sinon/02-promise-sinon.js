@@ -1,5 +1,8 @@
-// const expect = require('chai').expect
-// const sinon = require('sinon')
+// Run with:
+// npx mocha tests/02-promise-sinon/02-promise-sinon.js
+
+const expect = require('chai').expect
+const sinon = require('sinon')
 const databaseService = require('./databaseService')
 
 function codeWithPromise() {

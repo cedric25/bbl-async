@@ -1,3 +1,6 @@
+// Run with:
+// npx mocha tests/01-promise/01-promise.js
+
 const expect = require('chai').expect
 
 function codeWithPromise() {
