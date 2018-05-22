@@ -1,3 +1,5 @@
+const expect = require('chai').expect
+
 function codeWithPromise() {
 
   return myAsynchronousCode()
@@ -30,7 +32,7 @@ describe('Testing promise code', () => {
   describe('When calling my codeWithPromise() function', () => {
     it('should answer with \'Here is your answer!\'', function() {
 
-      // CODE HERE
+      // TODO CODE HERE
       console.assert(true === false)
 
     })
