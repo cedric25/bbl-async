@@ -1,3 +1,6 @@
+// Run with:
+// npx mocha tests/03-promise-rewire/03-promise-rewire.js
+
 const expect = require('chai').expect
 const sinon = require('sinon')
 const rewiremock = require('rewiremock/node')
@@ -17,7 +20,7 @@ describe('Testing promise code when in other file', () => {
     })
   })
 
-  describe('When mock answers with an error', () => {
+  describe.skip('When mock answers with an error', () => {
     it('should throw an error with message \'Oh oh, fail\'', () => {
 
       /**
