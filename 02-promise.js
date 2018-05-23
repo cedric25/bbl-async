@@ -1,3 +1,4 @@
+// node 02-promise
 
 function promiseVersion() {
 
