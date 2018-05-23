@@ -7,7 +7,7 @@ const rewiremock = require('rewiremock/node')
 
 describe('Testing promise code when in other file', () => {
   describe('When mock answers successfully', () => {
-    it('should return \'Mocked answer\'', () => {
+    it(`should return 'Mocked answer'`, () => {
 
       /**
        * TODO CODE HERE
@@ -21,7 +21,7 @@ describe('Testing promise code when in other file', () => {
   })
 
   describe.skip('When mock answers with an error', () => {
-    it('should throw an error with message \'Oh oh, fail\'', () => {
+    it(`should throw an error with message 'Oh oh, fail'`, () => {
 
       /**
        * TODO CODE HERE
