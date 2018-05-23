@@ -1,4 +1,5 @@
-// Run with `time node async-await/goodCode.js`
+// Run it with:
+// time node async-await/goodCode.js
 
 async function asyncAwaitColors() {
 

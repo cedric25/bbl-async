@@ -1,4 +1,5 @@
-// Run with `time node async-await/badCode.js`
+// Run it with:
+// time node async-await/badCode.js
 
 async function asyncAwaitColors() {
 

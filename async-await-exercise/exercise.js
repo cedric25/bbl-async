@@ -1,6 +1,7 @@
 const { getOneNumber } = require('./getOneNumber')
 const { getSum } = require('./getSum')
 
+// Run it with:
 // time node async-await-exercise/exercise.js
 
 /**
