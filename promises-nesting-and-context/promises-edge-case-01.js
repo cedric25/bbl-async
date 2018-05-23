@@ -1,3 +1,6 @@
+// Run it with:
+// node promises-nesting-and-context/promises-edge-case-01.js
+
 // --- Nested promises is *usually* a bad smell
 // Most of the time you can simply chain them
 

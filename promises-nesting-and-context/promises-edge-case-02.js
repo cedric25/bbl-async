@@ -1,3 +1,6 @@
+// Run it with:
+// node promises-nesting-and-context/promises-edge-case-02.js
+
 // --- But sometimes, you need some previous data...
 
 /**
